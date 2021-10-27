@@ -17,3 +17,9 @@ $("#aboutBtn").on('click', function () {
 $("#productBtn").on('click', function () {
     scrollToElement("#product", 1200);
 });
+
+$("#contactBtn").on('click', function () {
+    scrollToElement("#contact", 1200);
+});
+
+$(".ui.embed").embed({source: 'youtube'});
