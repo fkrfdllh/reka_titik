@@ -29,7 +29,7 @@ $(".contactBtn").on('click', function () {
 
 $(".ui.embed").embed({source: 'youtube'});
 
-$(".ui.fluid.image").visibility({
+$("#navbar").visibility({
     once: false,
     onBottomPassed: function() {
         $('.fixed.menu').transition('fade in');
